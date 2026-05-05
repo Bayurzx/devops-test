@@ -18,7 +18,7 @@ on:
 # ─── Variables ────────────────────────────────────────────────────────────────
 # IMAGE_NAME uses ghcr.io with the repo owner/name automatically
 env:
-  IMAGE_NAME: ghcr.io/${{ github.repository }}
+  IMAGE_NAME: ghcr.io/bayurzx/devops-test
 
 # ─── Secrets to configure in GitHub → Settings → Secrets → Actions ───────────
 #   DEPLOY_HOST     - IP or hostname of the remote server
